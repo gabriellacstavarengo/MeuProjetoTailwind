@@ -1,9 +1,9 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Benefits from './components/Benefits'
-import Products from './components/Products'
-import Testimonials from './components/Testimonials'
-import Footer from './components/Footer'
+import Header from './components/header'
+import Hero from './components/hero'
+import Benefits from './components/benefits'
+import Products from './components/products'
+import Testimonials from './components/testimonials'
+import Footer from './components/footer'
 
 function App() {
   return (
