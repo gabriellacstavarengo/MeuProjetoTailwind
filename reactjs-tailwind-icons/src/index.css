@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #763512;
+    color: #f3dcc4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+/* Utility to hide native scrollbars while keeping scrolling functional */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
